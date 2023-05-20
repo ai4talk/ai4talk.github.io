@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Бондарев;Иван;;;
+FN:Иван Бондарев
+ORG:AI4Talk;
+TITLE:
+EMAIL;TYPE=PREF,INTERNET:ivan.bondarev@ai4talk.ru
+TEL;TYPE=CELL,voice:+79262506209
+TEL;TYPE=WORK,voice:
+TEL;TYPE=WORK,fax:
+ADR;TYPE=WORK;type=pref:;; ;;;;
+URL:www.ai4talk.ru
+
+NOTE:
+
+REV:2008-04-24T19:52:43Z
+END:VCARD
