@@ -684,6 +684,10 @@ h2 {
   }
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
 }
@@ -755,6 +759,10 @@ h2 {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .block {
@@ -943,6 +951,10 @@ h2 {
 
 .grid-rows-\[auto_1fr_auto\] {
   grid-template-rows: auto 1fr auto;
+}
+
+.grid-rows-\[auto_1fr\] {
+  grid-template-rows: auto 1fr;
 }
 
 .flex-col {
@@ -1216,6 +1228,21 @@ h2 {
   line-height: 1rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -1330,6 +1357,14 @@ h2 {
 }
 
 @media (min-width: 480px) {
+  .xs\:visible {
+    visibility: visible;
+  }
+
+  .xs\:hidden {
+    display: none;
+  }
+
   .xs\:h-16 {
     height: 4rem;
   }
